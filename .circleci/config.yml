@@ -32,7 +32,7 @@ jobs:
     steps:
       - run:
           name: "say world"
-          command: $echo myName
+          command: echo $myName
     
 
 # Invoke jobs via workflows
